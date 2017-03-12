@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+	<div class="conteiner">
+		<div class="users">
+			<input type="text" placeholder="Name" id="nameUser" >
+			<button id='adduser' onclick="AddUser()">Create User</button>
+		</div>
+		<div id="characks">
+			<select id="charack" name="charack"></select>
+			<input type="number" min=1 name="nameCh" placeholder=" " id="nameCh" >
+			<button id='addChar' onclick="AddChar()">Create Char</button>
+			
+		</div>
+		<div id="play">
+			<select id="SelectF" name="mySelect"></select><br>
+			<span id='mes1'></span>
+		</div>
+		<div id="play1">
+			<select id="SelectF1" name="mySelect1"></select><br>
+			<span id='mes2'></span>
+		</div>
+		<div id="fites"> <button id='fite' onclick="Fite()">Fite</button>
+			<span id="win"></span>
+		</div>
+		<div id='player1'>Name:<span id="pl1"></span><br>
+			Charackters:<span></span><br></div>
+			<div id="resyltat"><p id="f3"></p></div>
+			<div id="player2">Name:<span id="pl2"></span><br>
+				Charackters:<span></span><br></div>
+
+			</div>
+			<script src='helper.js'></script>
+			<script src='entities.js'></script>
+			<script src='int.js'></script>
+			<script src='action.js'></script>
+		</body>
+		</html>
